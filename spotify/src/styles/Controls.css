@@ -1,0 +1,188 @@
+.Controls{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid rgb(73, 73, 73);
+    align-self: flex-end;
+}
+
+.controls_songInfo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls_songInfo img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.controls_songAndArtist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 500;
+    width: -webkit-fill-available;
+    padding: 0px 10px 0px 15px;
+}
+
+.controls_songAndArtist span{
+    margin: 2px 0px;
+}
+
+.controls_songAndArtist span:nth-child(2){
+    font-size: 80%;
+    opacity: 60%;
+}
+
+.controls_likeBtn{
+    display: flex;
+    justify-self: flex-end;
+    padding: 8px;
+}
+
+.controls_panel{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 8px; */
+}
+
+.controls_panel_btns{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+    height: 40px;
+    margin: 6px 0px;
+}
+
+.controls_panel_btns i{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+.fa-xl{
+    font-size: 1.5em !important;
+    line-height: 1 !important;
+    vertical-align: 1 !important;
+    padding: 8px !important;
+}
+
+.fa-2xl{
+    font-size: 2em !important;
+    line-height: 1 !important;
+    vertical-align: 1 !important;
+    padding: 4px !important;
+}
+
+.controls_playingBar{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myProgressBar{
+    width: 88%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.myProgressBar::before{
+    content: "";
+    display: inline-block;
+    width: var(--pgbarwidth);
+    height: 5px;
+    background-color: #1ed760;
+    position: absolute;
+    border-radius: 99px;
+}
+
+.myProgressBar::-webkit-slider-runnable-track{
+    background: rgb(123, 123, 123);
+    height: 5px;
+    border-radius: 9px;
+}
+
+.myProgressBar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    background: #1ed760;
+    margin-top: -3.5px;
+}
+
+.controls_playingBar span{
+    width: 8%;
+    padding: 6px 8px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.controls_more{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.controls_more i{
+    margin: 0px 12px;
+}
+
+.muteBtn{
+    width: 40px;
+}
+
+.soundBar{
+    margin: 0px 12px;
+    width: 40%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.soundBar::before{
+    content: "";
+    display: inline-block;
+    width: var(--sdbarwidth);
+    height: 5px;
+    background-color: rgb(58, 117, 255);
+    position: absolute;
+    border-radius: 99px;
+}
+
+.soundBar::-webkit-slider-runnable-track{
+    background: grey;
+    height: 5px;
+    border-radius: 9px;
+}
+
+.soundBar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    background: rgb(58, 117, 255);
+    margin-top: -3.5px;
+}

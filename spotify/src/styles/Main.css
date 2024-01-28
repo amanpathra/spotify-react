@@ -1,0 +1,73 @@
+.Main{
+    width: 84%;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(62, 12, 75) 0%, rgb(29, 29, 29) 70%);
+    overflow-y: scroll;
+}
+
+.Main h1{
+    margin: 10px 0px 30px 10px;
+    font-size: 2rem;
+}
+
+.main_songs{
+    width: 100%;
+    padding: 10px;
+    /* background-color: rgba(213, 213, 213, 0.05); */
+    border-radius: 4px;
+}
+
+.main_songItem{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 6px;
+    margin: 8px 0px;
+    border-radius: 4px;
+}
+.main_songItem:hover{
+    background-color: rgba(213, 213, 213, 0.05);
+}
+
+.main_songItem img{
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+}
+
+.main_nameAndArtist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 500;
+    width: -webkit-fill-available;
+    padding: 0px 10px 0px 15px;
+}
+
+.main_nameAndArtist span{
+    margin: 2px 0px;
+    transition: color 0.1s ease-in-out;
+}
+
+.main_nameAndArtist span:nth-child(2){
+    font-size: 80%;
+    opacity: 60%;
+}
+
+.main_songLength{
+    align-self: center;
+    margin: 0px 32px;
+}
+
+.songPlay{
+    width: 55px;
+    align-self: center;
+    margin: 0px 32px;
+    text-align: center;
+}
+
+
+.spGreen{
+    color: #1ed760;
+}

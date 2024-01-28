@@ -1,0 +1,63 @@
+.nav{
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 16, 16);
+    padding: 12px 16px;
+    position: sticky;
+}
+
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.nav_logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav_logo span{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.8rem;
+}
+
+.nav_info{
+    display: flex;
+}
+
+.nav_upgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 12px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 999px;
+    border: 1px solid gray;
+    padding: 0px 15px;
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 12px;
+    background-color: rgb(42, 42, 42);
+    border-radius: 99px;
+    padding: 0px 4px;
+}
+
+.nav_user img{
+    height: 28px;
+    margin-right: 10px;
+}
+
+.nav_user span{
+    margin-right: 10px;
+    font-size: 0.8rem;
+}

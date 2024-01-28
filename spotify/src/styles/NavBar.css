@@ -1,0 +1,20 @@
+.NavBar{
+    width: 16%;
+    border-right: 1px solid rgb(69, 69, 69);
+    background-color: rgb(28, 28, 28);
+    padding: 20px 10px;
+}
+
+.navbtn{
+    height: 50px;
+    padding: 12px 16px;
+}
+
+.navbtn i{
+    margin-right: 10px;
+}
+
+.navbtn span{
+    font-weight: 600;
+    padding: 0px 8px;
+}
